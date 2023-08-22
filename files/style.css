@@ -86,3 +86,67 @@ nav ul li a:hover{
   top: 0;
   width: 100%;
 }
+
+.home-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #333;
+}
+
+.words-section {
+  width: 30%;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.icons-container {
+  margin-bottom: 20px;
+}
+
+.icons-container a {
+  margin-right: 10px;
+  color: #333;
+}
+
+.icons-container a:hover {
+  color: #ff0000;
+}
+
+button {
+  background-color: #ff0000;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.image-section img {
+  width: 80%;
+  height: auto;
+  border-radius: 50%;
+}
