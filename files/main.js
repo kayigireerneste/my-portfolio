@@ -57,3 +57,38 @@ window.addEventListener('DOMContentLoaded', (event) => {
       navLinks[currentSectionIndex].classList.add('active');
   });
 });
+
+// To animate profession words DESIGNER and DEVELOPER
+const typingTexts = ["UI/UX-DESIGNER", "WEB-DEVELOPER"];
+        const targetElement = document.getElementById("typing-text");
+        let currentText = "";
+        let typingIndex = 0;
+        let sentenceIndex = 0;
+
+        function type() {
+            if (typingIndex < typingTexts[sentenceIndex].length) {
+                currentText += typingTexts[sentenceIndex][typingIndex];
+                targetElement.textContent = currentText;
+                typingIndex++;
+                setTimeout(type, 100);
+            } else {
+                setTimeout(erase, 1000);
+            }
+        }
+
+        function erase() {
+            if (typingIndex > 0) {
+                currentText = currentText.slice(0, -1);
+                targetElement.textContent = currentText;
+                typingIndex--;
+                setTimeout(erase, 50);
+            } else {
+                sentenceIndex++;
+                if (sentenceIndex >= typingTexts.length) {
+                    sentenceIndex = 0;
+                }
+                setTimeout(type, 500);
+            }
+        }
+
+        type();
