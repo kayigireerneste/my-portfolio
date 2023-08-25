@@ -8,16 +8,21 @@
     <meta name="author" content="erneste" />
     <title>kayigire personal portfolio website</title>
     <link rel="stylesheet" href="./files/style.css" />
+    <link rel="stylesheet" href="./files/about.css" />
     <script
       src="https://kit.fontawesome.com/744fa18e3f.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
+    <!--this is a nav bar section-->
     <nav class="navBar">
       <div class="logo-section">
-        <img id="logo-image" src="./images/logo-image.jpeg" alt="logo image" />
-        <a href="#home" class="logo">kayode</a>
+        <img
+          id="logo-image"
+          src="./images/logo-image.jpeg"
+          alt="logo image not displaying"
+        />
       </div>
       <ul>
         <li><a href="#home" class="active">Home</a></li>
@@ -30,6 +35,7 @@
       </ul>
     </nav>
 
+    <!--this is the landing page section-->
     <section class="home-content" id="home">
       <div class="words-section">
         <h1>Hello! It's Me</h1>
@@ -48,37 +54,127 @@
           <a href="#"><i class="fa-brands fa-facebook-messenger"></i></a>
           <a href="#"><i class="fa-brands fa-github"></i></a>
         </div>
-        <button><a href="#">Download CV</a></button>
+        <button><a href="#">Hire Me...</a></button>
       </div>
       <div class="image-section">
-        <img src="./images/profile-image.png" alt="my image profile" />
+        <img
+          src="./images/profile-image.png"
+          alt="my image profile not displaying"
+        />
       </div>
     </section>
 
-    <section id="about">
-      <h2>About Section</h2>
+    <!--this is the about me section-->
+    <section id="about" class="about-page">
+      <div class="about-content">
+        <div class="about-image">
+          <img
+            src="./images/about-image.jpeg"
+            alt="about image not displaying"
+          />
+        </div>
+
+        <div class="about-words">
+          <h1>About Me</h1>
+          <div class="address">
+            <p>
+              I understand that everything is connected, that all roads meet,
+              and that all rivers flow into the same sea.
+            </p>
+
+            <div class="addresses">
+              <span class="span1">
+                <strong>Name: </strong>
+                <strong>Date of birth: </strong>
+                <strong>Address: </strong>
+                <strong>Zip code: </strong>
+                <strong>Email: </strong>
+                <strong>Phone: </strong>
+                <strong>Gender: </strong>
+              </span>
+              <span class="span2">
+                <b>KAYIGIRE Erneste</b>
+                <b>March 20, 1989</b>
+                <b>Kigali/RWANDA 1°57'S 30°4'E.</b>
+                <b>00000</b>
+                <b>kayigireerneste@gmail.com</b>
+                <b>+250780605612</b>
+                <b>Male</b>
+              </span>
+            </div>
+
+            <h2><strong id="counter">1</strong> Projects Complete</h2>
+            <button><a href="#">Downloads CV</a></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="my-fovourite-tech">
+        <span>
+          <a href="#"><i class="fa-brands fa-microsoft"></i></a>
+          <h3>Microsoft</h3>
+        </span>
+        <span>
+          <a href="#"><i class="fa-brands fa-android"></i></a>
+          <h3>android</h3>
+        </span>
+        <span>
+          <a href="#"><i class="fa-brands fa-java"></i></a>
+          <h3>Java</h3>
+        </span>
+        <span>
+          <a href="#"><i class="fa-brands fa-google"></i></a>
+          <h3>Google</h3>
+        </span>
+        <span>
+          <a href="#"><i class="fa-brands fa-figma"></i></a>
+          <h3>Figma</h3>
+        </span>
+      </div>
     </section>
 
-    <section id="resume">
-      <h2>Resume Section</h2>
+    <!--this is the resume section-->
+    <section id="resume" class="resume-page">
+      <section class="nav-section">
+        <nav class="resume-navbar">
+          <ul>
+            <li><a href="#education" class="active-on">Education</a></li>
+            <li><a href="#experience">Experiences</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#awards">Awards</a></li>
+          </ul>
+        </nav>
+      </section>
+
+      <section class="pages-section">
+        <section id="education" class="education-page">
+
+        </section>
+        <section id="experience" class="experience-page">
+
+        </section>
+        <section id="skills" class="skills-page">
+
+        </section>
+        <section id="awards" class="awards-page">
+
+        </section>
+      </section>
     </section>
 
-    <section id="services">
-      <h2>Services Section</h2>
-    </section>
+    <!--this is the services section-->
+    <section id="services"></section>
 
-    <section id="projects">
-      <h2>Projects Section</h2>
-    </section>
+    <!--this is the projects section-->
+    <section id="projects"></section>
 
-    <section id="blog">
-      <h2>Blog Section</h2>
-    </section>
+    <!--this is the blog section-->
+    <section id="blog"></section>
 
-    <section id="contact">
-      <h2>Contact Section</h2>
-    </section>
+    <!--this is the contact section-->
+    <section id="contact"></section>
 
     <script src="./files/main.js"></script>
+    <script src="./files/about.js"></script>
   </body>
 </html>

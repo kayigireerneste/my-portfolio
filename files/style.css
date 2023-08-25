@@ -38,9 +38,10 @@ body {
 }
 
 .navBar #logo-image{
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   border-radius: 100%;
+  border: 4px solid #7c92b3;
 }
 
 .navBar ul {
@@ -87,13 +88,13 @@ nav ul li a.active {
   background-image: url("/my-portfolio/images/main-backg-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 90vh;
+  min-height: 100vh;
   width: 100%;
 }
 
 .words-section {
   width: 30%;
-  margin-left: 220px;
+  margin-left: 80px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -122,6 +123,7 @@ nav ul li a.active {
 }
 
 .words-section p {
+  opacity: 0.7;
   font-size: 14px;
   margin-bottom: 30px;
   font-style: italic;
@@ -143,12 +145,12 @@ nav ul li a.active {
 .words-section button {
   background-color: #0768f9;
   border: none;
-  color: #fff;
   padding: 7px 15px;
-  font-size: 16px;
+  font-size: 18px;
   border-radius: 100px;
   margin-left: 60px;
   margin-top: 30px;
+  font-style: italic;
 }
 
 .words-section button a {
