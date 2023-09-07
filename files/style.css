@@ -69,18 +69,19 @@ nav ul li a.active {
   padding: 5px;
   font-weight: bolder;
   text-decoration: underline;
-  color: #0768f9;
+  color: #11a372;
   transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 }
 
 .sticky {
-  height: 50px;
+  height: 40px;
   position: fixed;
   top: 0;
   width: 100%;
+  transition: all 0.7s;
 }
 
-.home-content {
+#home {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -117,7 +118,7 @@ nav ul li a.active {
 
 .words-section h3 strong{
   font-size: 26px;
-  color: #0768f9;
+  color: #11a372;
   letter-spacing: 1px;
   font-weight: bold;
 }
@@ -138,12 +139,12 @@ nav ul li a.active {
   color: #ffffff;
   font-size: 20px;
   border-radius: 100%;
-  border: 6px solid #0768f9;
-  background-color: #0768f9;
+  border: 6px solid #11a372;
+  background-color: #11a372;
 }
 
 .words-section button {
-  background-color: #0768f9;
+  background-color: #11a372;
   border: none;
   padding: 7px 15px;
   font-size: 18px;

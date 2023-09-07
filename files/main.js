@@ -1,5 +1,5 @@
 // JavaScript code to handle active elements in the navigation bar
-const navLinks = document.querySelectorAll('nav ul li a');
+const navLinks = document.querySelectorAll('.navBar ul li a');
 
 navLinks.forEach(link => {
     link.addEventListener('click', function() {

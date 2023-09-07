@@ -1,5 +1,13 @@
-.about-page{
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#about {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   min-height: 100vh;
+  width: 100%;
 }
 .about-content {
     display: flex;
@@ -69,12 +77,12 @@
   }
 
   .about-words h2 strong{
-    color: #0768f9;
+    color: #11a372;
     font-weight: bold;
   }
   
   .about-words button {
-    background-color: #0768f9;
+    background-color: #11a372;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -106,7 +114,7 @@
 
   .my-fovourite-tech span i{
     font-size: 40px;
-    color: #0768f9;
+    color: #11a372;
   }
 
   .my-fovourite-tech span h3{
