@@ -184,3 +184,16 @@ nav ul li a.active {
       transform: translateY(0);
   }
 }
+
+#footer {
+    background-color: #1f2937;
+    height: 8%;
+    width: 100%;
+}
+
+#footer p {
+    text-align: center;
+    color: #F9FAF8;
+    padding-top: 10px;
+    font-size: 12px;
+}

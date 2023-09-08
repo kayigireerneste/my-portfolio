@@ -7,7 +7,7 @@
 #resume {
   width: 100%;
   min-height: 100vh;
-  background-color: #fafafa;
+  background-color: #efeff0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,7 +47,7 @@ main.row{
 }
 
 .col .content .box:hover{
-  box-shadow: 0px 3px 12px 0px #ccc;
+  box-shadow: 0px 3px 12px 0px #bdb9b9;
   border: 1px solid transparent;
 }
 
