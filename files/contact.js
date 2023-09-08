@@ -36,7 +36,7 @@ document.getElementById("contactForm").addEventListener("submit", function(event
   // Configure SMTPJS with your email settings
   Email.send({
     SecureToken: "C973D7AD-F097-4B95-91F4-40ABC5567812",
-    To: "kayigireerneste@gmail.com",
+    To: "ruvakwaya1@gmail.com",
     From: email,
     Subject: "Contact Form Submission",
     Body: body
