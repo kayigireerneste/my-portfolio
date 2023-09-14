@@ -187,13 +187,12 @@ nav ul li a.active {
 
 #footer {
     background-color: #1f2937;
-    height: 8%;
+    height: 300px;
     width: 100%;
 }
 
 #footer p {
     text-align: center;
     color: #F9FAF8;
-    padding-top: 10px;
-    font-size: 12px;
+    font-size: 24px;
 }

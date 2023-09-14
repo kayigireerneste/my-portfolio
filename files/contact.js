@@ -22,20 +22,20 @@ document.getElementById("contactForm").addEventListener("submit", function(event
   event.preventDefault(); // Prevent form submission
 
   // Get form values
-  var name = document.getElementById("name").value;
-  var email = document.getElementById("email").value;
-  var phone = document.getElementById("phone").value;
-  var message = document.getElementById("message").value;
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const phone = document.getElementById("phone").value;
+  const message = document.getElementById("message").value;
 
   // Create email body
-  var body = "Name: " + name + "\n";
+  const body = "Name: " + name + "\n";
   body += "Email: " + email + "\n";
   body += "Phone: " + phone + "\n";
   body += "Message: " + message;
 
   // Configure SMTPJS with your email settings
   Email.send({
-    SecureToken: "C973D7AD-F097-4B95-91F4-40ABC5567812",
+    SecureToken: "9b854297-6ddc-429c-a730-c0673e4a448c",
     To: "ruvakwaya1@gmail.com",
     From: email,
     Subject: "Contact Form Submission",

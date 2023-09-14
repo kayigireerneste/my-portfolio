@@ -37,6 +37,7 @@
 .contact-form {
   background-color: #1abc9c;
   position: relative;
+  height: auto;
 }
 
 .circle {
